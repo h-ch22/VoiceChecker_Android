@@ -13,7 +13,7 @@
         android:theme="@style/Theme.VoiceChecker"
         tools:targetApi="31">
         <activity
-            android:name=".frameworks.ui.MainActivity"
+            android:name=".frameworks.ui.StartActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.VoiceChecker">
@@ -23,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".frameworks.ui.MainActivity"/>
     </application>
 
 </manifest>
